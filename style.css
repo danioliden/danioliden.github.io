@@ -102,6 +102,11 @@ main a i {
     text-align: center;
 }
 
+main a svg {
+    filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3));
+    -webkit-filter: drop-shadow(0 0 0.25rem rgba(0, 0, 0, 0.3));
+}
+
 footer {
     position: fixed;
     bottom: 0.75rem;
